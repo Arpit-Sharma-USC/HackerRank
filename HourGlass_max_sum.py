@@ -9,7 +9,7 @@ import sys
 # Complete the hourglassSum function below.
 def hourglassSum(a):
     n=len(a)
-    max=0
+    max=-99999
     count=0
     for i in range(1,n-1):
         for j in range(1,n-1):
